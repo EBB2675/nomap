@@ -1,4 +1,4 @@
- NOMAP — Schema/Parser RAG Bot
+# NOMAP — Schema/Parser RAG Bot
 
 A minimal RAG tool to help migrate legacy NOMAD parsers & schemas to the `nomad‑simulations` stack.  
 Built on ChromaDB, an Ollama‑compatible embedding API, and an OpenAI‑compatible generator.
