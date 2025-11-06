@@ -4,3 +4,8 @@ __pycache__/
 .env
 .venv/
 .ipynb_checkpoints/
+
+# packaging artifacts
+*.egg-info/
+dist/
+build/
