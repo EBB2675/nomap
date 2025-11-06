@@ -1,0 +1,20 @@
+[project]
+name = "nomap"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "chromadb>=0.5.0",
+  "sentence-transformers>=2.7.0",
+  "streamlit>=1.38.0",
+  "python-dotenv>=1.0.1",
+  "pydantic>=2.9.0",
+  "openai>=1.40.0"
+]
+
+[project.scripts]
+nomap-ingest = "nomap.ingest:main"
+nomap-app = "nomap.launch_app:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

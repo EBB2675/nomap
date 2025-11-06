@@ -1,0 +1,3 @@
+[console_scripts]
+nomap-app = nomap.launch_app:main
+nomap-ingest = nomap.ingest:main
